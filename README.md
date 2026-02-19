@@ -75,8 +75,6 @@ Enter end IP:
 Enter timeout (seconds):
 ```
 
----
-
 ## 🔄 Concurrency
 
 This project uses Goroutines for parallel port scanning:
@@ -84,13 +82,9 @@ This project uses Goroutines for parallel port scanning:
 - Each port scan runs in a separate Goroutine  
 - `sync.WaitGroup` ensures all scans complete before program exit  
 
----
-
 ## 📊 Testing
 
 Results can be compared with tools like Nmap for validation.
-
----
 
 ## ⚠️ Usage Notice
 
