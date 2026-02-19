@@ -12,16 +12,12 @@ A concurrent TCP port scanner written in Go that scans a range of IP addresses f
 - Configurable timeout
 - Concurrent scanning using Goroutines
 
----
-
 ## ⚙️ Technologies Used
 
 - Go (Golang)
 - net package
 - sync.WaitGroup
 - time package
-
----
 
 ## 🧠 Scanned Ports
 
@@ -35,8 +31,6 @@ The following ports are scanned by default:
 - 587 → SMTP Submission  
 
 You can modify the `ports` slice in `main.go` to scan additional ports.
-
----
 
 ## 🏗 Project Structure
 
@@ -57,8 +51,6 @@ Generates a list of IP addresses between the provided start and end IP.
   - FTP → `USER anonymous`
   - SMTP → `EHLO example.com`
 - Collects and returns the banner
-
----
 
 ## 🚀 How to Run
 
